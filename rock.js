@@ -1,1 +1,11 @@
 console.log("Now Connected");
+let mainDOM = document.querySelector("#main");
+console.log(mainDOM);
+let mainClassesDOM = document.querySelectorAll(".main");
+console.log(mainClassesDOM);
+let firstMainDOM = document.querySelector(".main");
+console.log(firstMainDOM);
+let secondMainDOM = document.querySelector(".main");
+console.log(secondMainDOM);
+let sidebarMainDOM = document.querySelector(."sidebar" ."main");
+console.log(sidebarMainDOM);
